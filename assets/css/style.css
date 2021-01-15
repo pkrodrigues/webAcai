@@ -1,0 +1,32 @@
+:root{
+    --primary-color: #8BC84A;
+    --secundary-color: #46123E;
+    --terciary-color:   #693948;
+    --fundo-color: #EAE0E0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Sanchez, serif;
+}
+
+body{
+    background: var(--fundo-color) url("../img/background.svg") no-repeat right top;
+    -webkit-font-smoothing: antialased;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Risque, cursive;
+    color: var(--secundary-color);
+}
+
+
